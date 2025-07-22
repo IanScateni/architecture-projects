@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+.env
+.env.*.local
+dist/
+build/
+coverage/
+logs/
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# PM2
+.pids
+*.pid
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+*.iml
+
+# Test outputs
+.nyc_output/
+test-results/
+
+# GitHub Actions
+.github/workflows/*.log
+
+# Others
+*.tgz
+*.swp
+*.bak
+*.orig
+*.patch
