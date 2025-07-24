@@ -1,17 +1,19 @@
 import { Request, Response } from "express";
+import { RegisterUserDto } from "../../domain";
 
 export class AuthController {
 
   constructor() {}
   
-
   registerUser = (req: Request, res: Response ) => {
-    res.json('registerUser controller')
+    const [error, registerUserDTO] = RegisterUserDto.create(req.body);
+    if ( error ) return res.status(400).json({ error });
 
+    res.json( registerUserDTO );
   }
 
   loginUser = (req: Request, res: Response ) => {
-    res.json('loginUser controller')
+    res.json('loginUser controller');
   }
 
 }
