@@ -35,3 +35,4 @@ docker-compose.override.yml
 .AppleDouble
 .Spotlight-V100
 .Trashes
+mongo/
