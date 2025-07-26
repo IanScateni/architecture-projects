@@ -13,12 +13,14 @@ These projects are aligned with the `Architect Track` roadmap and serve as **lea
 
 ## 🧱 What you'll find here
 
-| Project                    | Architecture Focus        | Description |
-|----------------------------|---------------------------|-------------|
-| `clean-node-api`           | Clean Architecture, SOLID | A REST API applying Clean Architecture principles in Node.js |
-| `nestjs-ddd-example`       | DDD + Modular Monolith    | NestJS project applying DDD layers with testing and CI/CD |
-| `ci-cd-pipeline-github`    | CI/CD                     | Automated workflows for testing, build and deployment using GitHub Actions |
-| `modular-auth-service`     | System Decomposition      | Authentication microservice designed with modular boundaries and testing in mind |
+| Project                  | Architecture Focus       | Description                                                                | Status  |
+|--------------------------|--------------------------|----------------------------------------------------------------------------|---------|
+| `clean-node-api`         | Clean Architecture, SOLID | RESTful API implementing Clean Architecture principles in Node.js         |  ✅  |
+| `nestjs-ddd-example`     | DDD + Modular Monolith   | NestJS project structured with Domain-Driven Design and modular layers     |  📝  |
+| `ci-cd-pipeline-github`  | CI/CD                    | GitHub Actions pipeline for automated testing, building and deployment     |  📝  |
+| `modular-auth-service`   | System Decomposition     | Microservice for authentication, built with modular boundaries and testing |  📝  |
+
+> 🚧 In Progress · 📝  Planned · ✅ Completed
 
 > Note: These projects may evolve over time as the learning journey progresses.
 
