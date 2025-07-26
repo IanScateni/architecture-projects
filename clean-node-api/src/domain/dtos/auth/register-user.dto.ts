@@ -1,6 +1,5 @@
 import { Validators } from "../../../config";
 
-
 export class RegisterUserDto {
 
   private constructor(

@@ -15,7 +15,6 @@ export class UserMapper {
     if ( !password ) throw CustomError.badRequest('Missing password');
     if ( !roles ) throw CustomError.badRequest('Missing roles');
 
-
     return new UserEntity(
       _id || id,
       name,
