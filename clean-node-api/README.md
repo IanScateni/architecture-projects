@@ -106,6 +106,8 @@ Example:
 ```env
 PORT=3000
 JWT_SECRET=mysecretkey
+MONGO_URL=mongodb://url:port
+MONGO_DB_NAME=nameDB
 ```
 
 ---
