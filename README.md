@@ -52,7 +52,7 @@ architecture-projects/
 ## 👨‍💻 Author
 
 **Ian Scateni**  
-Software Engineer | Full Stack Developer | Architecture Track
+Fullstack Developer | Software Engineer | Software Architect
 
 🔗 [LinkedIn](https://linkedin.com/in/IanScateni)  
 🌐 [Portfolio](https://ianscateni.com)
