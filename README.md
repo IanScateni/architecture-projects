@@ -16,6 +16,7 @@ These projects are aligned with the `Architect Track` roadmap and serve as **lea
 | Project                  | Architecture Focus       | Description                                                                | Status  |
 |--------------------------|--------------------------|----------------------------------------------------------------------------|---------|
 | `clean-node-api`         | Clean Architecture, SOLID | RESTful API implementing Clean Architecture principles in Node.js         |  ✅  |
+| `user-service-api`       | Clean Architecture, DI   | RESTful user management service with Express, TypeScript and MongoDB. Focused on repository pattern and dependency injection | ✅ |
 | `nestjs-ddd-example`     | DDD + Modular Monolith   | NestJS project structured with Domain-Driven Design and modular layers     |  📝  |
 | `ci-cd-pipeline-github`  | CI/CD                    | GitHub Actions pipeline for automated testing, building and deployment     |  📝  |
 | `modular-auth-service`   | System Decomposition     | Microservice for authentication, built with modular boundaries and testing |  📝  |
